@@ -22,7 +22,7 @@ node -v
 sudo apt install curl
 
 # Install nvm (Node Version Manager)
-curl [https://raw.githubusercontent.com/creationix/nvm/master/install.sh](https://raw.githubusercontent.com/creationix/nvm/master/install.sh) | bash
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 # Source bashrc to use nvm
 source ~/.bashrc

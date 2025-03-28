@@ -30,9 +30,6 @@ source ~/.bashrc
 # Install the latest LTS version of Node.js using nvm
 nvm install --lts
 
-# Fix npm audit issues
-npm audit fix --force
-
 # Check if Git is installed
 git --version
 
@@ -47,6 +44,9 @@ cd <your-project-folder-name>
 
 # Install project dependencies
 npm install
+
+# Fix npm audit issues
+npm audit fix --force
 
 # Start the React development server
 npm run dev
